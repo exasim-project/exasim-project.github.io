@@ -1,0 +1,224 @@
+:root {
+	--font-family-head: "Outfit", system-ui, sans-serif;
+	--font-family-text: "Barlow", system-ui, sans-serif;
+	--font-family-monospace: monospace, monospace;
+
+	--border-width: 3px;
+	--site-padding: 50px;
+	--site-content: 1200px;
+	--site-max-width: calc(100vw - var(--site-padding));
+	--gap: 25px;
+	--syntax-tab-size: 4;
+
+	/* COLORS ------------------------------------------------------------------- */
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #c0c0c0;
+	--color-gray-90: #333;
+	--color-white: #fff;
+	--color-blue: #131d36;
+	--color-turquoise: #0cc8cf;
+	--color-primary: var(--color-blue);
+	--color-secondary: var(--color-turquoise);
+	--background-color: #f3f3f3;
+	--text-color: var(--color-primary);
+
+	/* FONTSIZING --------------------------------------------------------------- */
+	--font-size--small: 1.4rem;
+	--font-size--normal: clamp(1.8rem, 0.24vw + 1.71rem, 2rem);
+	--font-size--medium: clamp(2rem, 0.24vw + 1.91rem, 2.2rem);
+	--font-size--huge: clamp(4rem, 3.57vw + 2.71rem, 7rem);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-white: #4b4b4b;
+		--color-gray-50: #fff;
+		--color-gray-90: #dad8d8;
+		--color-primary: #ffffff;
+		--color-secondary: #0cc8cf;
+		--background-color: #131d36;
+	}
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family-text);
+	color: var(--color-primary);
+	background-color: var(--background-color);
+}
+
+html {
+	overflow-y: scroll;
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 PAGE LAYOUT                                */
+/* -------------------------------------------------------------------------- */
+.site-content {
+	flex: 1 0 auto;
+}
+
+.site-footer {
+	flex-shrink: 0;
+}
+
+.site-inner {
+	width: var(--site-content);
+	max-width: var(--site-max-width);
+	margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 TYPOGRAPHY                                 */
+/* -------------------------------------------------------------------------- */
+
+p,
+li,
+pre,
+.font-size--normal,
+.arrow-link {
+	font-size: clamp(1.8rem, 0.24vw + 1.71rem, 2rem);
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: var(--font-size--normal);
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                DEFAULT ITEMS                               */
+/* -------------------------------------------------------------------------- */
+
+/* LINKS -------------------------------------------------------------------- */
+a,
+a:visited {
+	color: var(--color-primary);
+	text-decoration-color: var(--color-turquoise);
+	transition: all 0.3s;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: var(--color-turquoise);
+}
+
+/* HEADINGS ----------------------------------------------------------------- */
+
+h1 {
+	margin-top: 0;
+	font-size: 3.998rem;
+}
+
+h2 {
+	font-size: 2.827rem;
+}
+
+h3 {
+	font-size: 1.999rem;
+}
+
+h4 {
+	font-size: 1.414rem;
+}
+
+h5 {
+	font-size: 1.121rem;
+}
+
+h6 {
+	font-size: 0.88rem;
+}
+
+/* BLOCKQUOTE --------------------------------------------------------------- */
+blockquote {
+	margin: 0;
+	border-left: 3px solid var(--color-turquoise);
+	padding: 2rem;
+	text-align: left;
+}
+
+blockquote p:first-child {
+	margin-top: 0;
+}
+
+/* TABLES ------------------------------------------------------------------- */
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+/* CODE --------------------------------------------------------------------- */
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+
+pre:not([class*="language-"]) {
+	color: var(--color-primary);
+	margin: 2rem 0;
+	line-height: 1.375;
+	tab-size: var(--syntax-tab-size);
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	background-color: var(--color-white);
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+code {
+	word-break: break-all;
+}
+
+/* IMAGES ------------------------------------------------------------------- */
+figure {
+	margin: 0;
+	font-size: 1.4rem;
+}
+figcaption b,
+figcaption strong {
+	display: block;
+	font-weight: 500;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   HELPER                                   */
+/* -------------------------------------------------------------------------- */
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
