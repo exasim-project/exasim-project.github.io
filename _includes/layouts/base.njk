@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		{# FAVICONS #}
+		<link rel="icon" href="/img/favicon.ico">
+		<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+		<link rel="manifest" href="manifest.webmanifest">
+		{# /FAVICONS #}
+		{# INLINE CSS #}
+		{% set css %}
+			{% include "public/css/basics.css" %}
+			{% include "public/css/fonts.css" %}
+			{% include "public/css/index.css" %}
+		{% endset %}
+		<style>{{ css | cssmin | safe }}</style>
+		{# /INLINE CSS #}
+	</head>
+	<body>
+		<a href="#main-menu" class="visually-hidden">Skip to main menu</a>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+		<a href="#footer-menu" class="visually-hidden">Skip to footer menu</a>
+
+		<header class="site-header site-inner">
+			{# exasim logo #}
+			<a href="/" title="exasim" class="home-link">{% include "public/img/exasim_logo.svg" %}</a>
+			{# /exasim logo #}
+
+			{# Main Navigation #}
+			<nav class="main-nav" id="main-nav">
+				<button class="main-nav__toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+				<ul id="menu" class="main-nav__list">
+				{%- for entry in collections.all | eleventyNavigation('main-menu') %}
+					<li class="main-nav__nav-item">
+						<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+					</li>
+				{%- endfor %}
+				</ul>
+			</nav>
+			{# /Main Navigation #}
+		</header>
+
+		{# Site Content #}
+		<main class="site-content" id="skip">
+			<div class="site-inner">
+				{{ content | safe }}
+			</div>
+		</main>
+		{# /Site Content #}
+
+		<footer class="site-footer">
+			<div class="site-inner">
+				<div class="funding">
+					<div class="funding__text">funded by:</div>
+					<img loading="lazy" width="168" height="84" class="funding__img" src="/img/fmer_logo.webp" alt="Logo of the Federal Ministry of Education and Research">
+				</div>
+
+				{# Footer Nav #}
+				<nav class="footer-nav" aria-label="Footer navigation" id='footer-nav'>
+					<ul>
+					{%- for entry in collections.all | eleventyNavigation('footer-menu') %}
+						<li class="footer-nav__nav-item">
+							<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+							</li>
+					{%- endfor %}
+					</ul>
+				</nav>
+				{# /Footer Nav #}
+			</div>
+		</footer>
+
+		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+
+		{# SCRIPTS #}
+		<script src="/js/main.js"></script>
+	</body>
+</html>

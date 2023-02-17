@@ -1,0 +1,79 @@
+/* -------------------------------------------------------------------------- */
+/*                                   Barlow                                  */
+/* -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 400;
+	src: local(""), url("../fonts/Barlow-Regular.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: italic;
+	font-weight: 400;
+	src: local(""), url("../fonts/Barlow-Italic.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 500;
+	src: local(""), url("../fonts/Barlow-Medium.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: italic;
+	font-weight: 500;
+	src: local(""), url("../fonts/Barlow-MediumItalic.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 600;
+	src: local(""), url("../fonts/Barlow-Semibold.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Barlow Condensed";
+	font-style: normal;
+	font-weight: 500;
+	src: local(""),
+		url("../fonts/BarlowSemiCondensed-Medium.woff2") format("woff2");
+	font-display: swap;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Outfit                                   */
+/* -------------------------------------------------------------------------- */
+
+@font-face {
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 400;
+	src: local(""), url("../fonts/Outfit-Regular.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 500;
+	src: local(""), url("../fonts/Outfit-Medium.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 600;
+	src: local(""), url("../fonts/Outfit-SemiBold.woff2") format("woff2");
+	font-display: swap;
+}
