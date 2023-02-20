@@ -4,9 +4,9 @@
 	--font-family-monospace: monospace, monospace;
 
 	--border-width: 3px;
-	--site-padding: 50px;
+	--site-padding: 25px;
 	--site-content: 1200px;
-	--site-max-width: calc(100vw - var(--site-padding));
+	--site-max-width: calc(100vw - calc(var(--site-padding) * 2));
 	--gap: 25px;
 	--syntax-tab-size: 4;
 
@@ -20,6 +20,7 @@
 	--color-primary: var(--color-blue);
 	--color-secondary: var(--color-turquoise);
 	--background-color: #f3f3f3;
+	--background-lighter: #fff;
 	--text-color: var(--color-primary);
 
 	/* FONTSIZING --------------------------------------------------------------- */
@@ -37,6 +38,7 @@
 		--color-primary: #ffffff;
 		--color-secondary: #0cc8cf;
 		--background-color: #131d36;
+		--background-lighter: #172342;
 	}
 }
 

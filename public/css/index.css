@@ -10,8 +10,15 @@ header.site-header {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: var(--site-padding) 0;
+	padding: 15px var(--site-padding);
 	position: relative;
+	width: 100%;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+header.site-header.menu-open .main-nav__list {
+	position: absolute;
 }
 
 .main-nav__toggle {
@@ -19,8 +26,8 @@ header.site-header {
 	border: none;
 	position: absolute;
 	display: none;
-	top: 68px;
-	right: 0;
+	top: 33px;
+	right: 25px;
 }
 
 .main-nav__toggle .line {
@@ -54,6 +61,9 @@ header.site-header {
 	margin: 0;
 	list-style: none;
 	gap: var(--gap);
+	width: 100%;
+	left: 0;
+	padding: 0 var(--site-padding) var(--site-padding) var(--site-padding);
 }
 
 .main-nav__nav-item a {
@@ -76,13 +86,23 @@ header.site-header {
 	header.site-header {
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 15px;
+		background: var(--background-lighter);
+	}
+
+	.main-nav__nav-item {
+		border-top: 1px solid var(--color-primary);
+		padding: 10px 0;
+	}
+	.main-nav__nav-item a {
+		font-size: 2.5rem;
 	}
 	.main-nav__toggle {
 		display: block;
 	}
 	.main-nav__list {
 		display: none;
+		background: var(--background-lighter);
+		margin-top: 15px;
 	}
 	.main-nav__list.is-active {
 		display: block;
@@ -119,7 +139,7 @@ header.site-header {
 }
 
 main {
-	padding-bottom: 150px;
+	padding-block: 50px 150px;
 }
 
 .section {
@@ -147,7 +167,7 @@ main {
 
 h1.section-header {
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 1.8rem;
 	letter-spacing: 2px;
 	margin: 0 0 15px 0;
 }
