@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
+<html lang="{{ metadata.language }}" class="no-js">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +20,13 @@
 		{% endset %}
 		<style>{{ css | cssmin | safe }}</style>
 		{# /INLINE CSS #}
+		{# REMOVE NO-JS #}
+		<script>
+		;(function(document) {
+			document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+		}(document));
+		</script>
+		{# /REMOVE NO-JS #}
 	</head>
 	<body>
 		<a href="#main-menu" class="visually-hidden">Skip to main menu</a>

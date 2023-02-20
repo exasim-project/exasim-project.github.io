@@ -87,6 +87,18 @@ header.site-header {
 	.main-nav__list.is-active {
 		display: block;
 	}
+
+	.no-js .main-nav {
+		width: 100%;
+	}
+	.no-js .main-nav__toggle {
+		display: none;
+	}
+
+	.no-js .main-nav__list {
+		display: block;
+		padding: 0;
+	}
 }
 
 /* -------------------------------------------------------------------------- */
