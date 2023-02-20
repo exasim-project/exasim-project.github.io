@@ -1,12 +1,11 @@
-var toggle = document.querySelector('#menu-toggle');
-var menu = document.querySelector('#menu');
+const toggle = document.querySelector('#menu-toggle');
+const menu = document.querySelector('#menu');
+const siteHeader = document.querySelector('.site-header');
 
-toggle.addEventListener('click', function(){
-  if (menu.classList.contains('is-active')) {
-    this.setAttribute('aria-expanded', 'false');
-    menu.classList.remove('is-active');
-  } else {
-    menu.classList.add('is-active'); 
-    this.setAttribute('aria-expanded', 'true');
-  }
+toggle.addEventListener('click', function() {
+  siteHeader.classList.toggle('menu-open');
+  const thisToggle = this;
+  menu.classList.toggle('is-active');
+  const isMenuActive = menu.classList.contains('is-active');
+  thisToggle.setAttribute('aria-expanded', isMenuActive ? 'true' : 'false');
 });
