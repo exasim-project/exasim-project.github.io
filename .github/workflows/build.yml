@@ -23,7 +23,6 @@ jobs:
 
       - name: Install dependencies & build
         run: |
-          npm install
           npm ci
           npm run build
 
