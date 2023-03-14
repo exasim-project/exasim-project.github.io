@@ -51,16 +51,6 @@ to the project.
 
 - Feasibility study for the application of the developed methods for two complex cases in the field of wind energy.
 
-
-
-# Workpackages
-- Project management **WP1**
-- Definition and creation of test cases **WP2**
-- Development of the OpenFOAM Ginkgo interface (*OGL*) **WP3**
-- HPC capable inflow and outflow conditions **WP4**
-- Complex application cases wind energy **WP5**
-- Dissemination **WP6**
-
 # Consortium
 
 For the EXASIM project a consortium of the three partners SCC, ISTM and UCFD as
