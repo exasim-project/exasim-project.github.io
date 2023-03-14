@@ -15,8 +15,7 @@ The exasim project supports the philosophy of open science and open source softw
 
 The OGL package is an OpenFOAM plugin that provides the interface to the sparse linear algebra framework Ginkgo.
 
-<div class="github-card" data-github="hpsim/ogl" data-width="400" data-height="150" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+[![hpsim/ogl - GitHub](https://gh-card.dev/repos/hpsim/ogl.svg)](https://github.com/hpsim/ogl
 
 ## Benchmark Cases 
 
