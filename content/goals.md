@@ -33,13 +33,12 @@ linear algebra developed at KIT.
 
 - Implement an interface between OpenFOAM and the sparse linear algebra framework Ginkgo.
 
-- Provide access to state of the art linear algebra and  
-significantly improve the performance and resource efficiency on GPUs and
-current computer hardware.
+- Provide access to state of the art linear algebra and significantly improve
+the performance and resource efficiency on GPUs and current computer hardware.
 
 - In order to maximize the user base for this technique, the methods developed
-are intended to be platform and manufacturer-independent. This means their
-optimization for the three major manufacturers of graphics cards: AMD, Intel and
+are intended to be platform and manufacturer-independent. This means they are
+optimized for the three major manufacturers of graphics cards: AMD, Intel and
 Nvidia, as well as for various high-performance computers and cloud computing
 platforms.
 
