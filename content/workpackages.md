@@ -7,7 +7,6 @@ eleventyNavigation:
   order: 2
 ---
 
-# Workpackages
 ## **WP1** Project management 
 ## **WP2** Definition and creation of test cases 
 

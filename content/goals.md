@@ -1,6 +1,5 @@
 ---
 layout: layouts/page.njk
-title: Motivation
 eleventyNavigation:
   parent: main-menu
   key: The Project
