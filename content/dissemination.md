@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-## Public Repositorys
+## Public Repositories
 
 The exasim project supports the philosophy of open science and open source software. Software, benchmark cases, and performance data are therefore distributed on publicly available repositories.
 
