@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: The Project
+title: Motivation
 eleventyNavigation:
   parent: main-menu
   key: The Project
@@ -21,7 +21,7 @@ more energy-efficient high-performance computers employing general purpose GPU a
 close this technical gap and develop an interface between
 the popular simulation software OpenFOAM and the GPU optimized linear algebra library Ginkgo developed at KIT.
 
-# Goals
+## Goals
 
 - Reduce computational costs for scale-resolved "high-fidelity" simulations by reducing costs of linear solver and required domain sizes.
 
@@ -30,7 +30,7 @@ the popular simulation software OpenFOAM and the GPU optimized linear algebra li
 - Implement an interface between OpenFOAM and the sparse linear algebra framework Ginkgo.
 
 - Provide access to state of the art linear algebra and significantly improve
-the performance and resource efficiency on GPUs and current computer hardware.
+  the performance and resource efficiency on GPUs and current computer hardware.
 
 - In order to maximize the user base for this technique, the methods developed
 are intended to be platform and manufacturer-independent. This means they are
@@ -43,7 +43,7 @@ users to test their own developments and contribute to the project.
 
 - Feasibility study for the application of the developed methods for two complex cases in the field of wind energy.
 
-# Consortium
+## Consortium
 
 For the EXASIM project a consortium of three partners 
 1. Steinbuch Centre for Computing - SCC (Karlsruhe Institute of Technology - KIT)
