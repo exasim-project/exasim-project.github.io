@@ -9,42 +9,44 @@ eleventyNavigation:
 
 # IMPRINT
 
-## Anbieter
+## Provider
 
-Diensteanbieter im Sinne von §5 Telemediengesetz (TMG) und §18 Abs. 2 Medienstaatsvertrag (MStV):
+Provider of services in the sense of Art. 5 of the State Agreement on Media Services and Art. 18, par. 2, State Media Treaty (MStV)
 
-Rechtlicher Sitz: Karlsruher Institut für Technologie
-Kaiserstraße 12
-76131 Karlsruhe
-Deutschland
-Tel.: +49 721 608-0
-Fax: +49 721 608-44290
-E-Mail: info@kit.edu
-Rechtsform: Körperschaft des öffentlichen Rechts
-Vertretungsberechtigt: Prof. Dr.-Ing. Holger Hanselka (Präsident des KIT)
-Verantwortlich für den Inhalt:
+**Registered Office:** \
+Karlsruhe Institute of Technology \
+Kaiserstraße 12 \
+76131 Karlsruhe \
+Germany \
+Phone: +49 721 608-0 \
+Fax: +49 721 608-44290 \
+E-mail: [info@kit.edu](mailto:info@kit.edu)
 
-Monika Landgraf
-Abteilungsleiterin STS-Gesamtkommunikation und Pressesprecherin des KIT
 
-Anfragen zum Inhalt
-E-Mail: internetredaktion@sts.kit.edu
-Umsatzsteueridentifikationsnummer: DE266749428
+**Legal Form:**	Corporation governed by public law
+
+**Authorized Representatives:**	Prof. Dr.-Ing. Holger Hanselka (President of KIT)
+
+**Responsible for Content:**	\
+Monika Landgraf \
+Head of Corporate Communications and Chief Press Officer of the KIT \
+Online editorial team \
+Email: internetredaktion@sts.kit.edu
+
+**Turnover Tax Identification Number:**	DE266749428
 
 ## Copyright
 
-Für die Internet-Seiten des Karlsruher Instituts für Technologie liegen Copyright und alle weiteren Rechte beim Karlsruher Institut für Technologie, Kaiserstraße 12, 76131 Karlsruhe, Deutschland. Weiterverbreitung, auch in Auszügen, für pädagogische, wissenschaftliche oder private Zwecke ist unter Angabe der Quelle gestattet (sofern nicht anders an der entsprechenden Stelle ausdrücklich angegeben). Eine Verwendung im gewerblichen Bereich bedarf der Genehmigung durch das Karlsruher Institut für Technologie. Ansprechpartner ist die Dienstleistungseinheit Stab und Strategie.
+For the internet pages of Karlsruhe Institute of Technology, the copyright and all other rights lie with the Karlsruhe Institute of Technology, Kaiserstraße 12, 76131 Karlsruhe, Germany. Further dissemination, also in parts, for pedagogic, scientific or private purposes is allowed, provided that the source is indicated (unless otherwise expressly stated on the respective page). Use for commercial purposes shall require the approval by the Karlsruhe Institute of Technology. Contact the [Executive Office and Strategy Department](mailto:info@kit.edu).
 
-## Haftung
+## Disclaimer
 
-Diese Internetseiten dienen lediglich der Information. Ihr Inhalt wurde mit gebührender Sorgfalt zusammengestellt. Das Karlsruher Institut für Technologie übernimmt aber keine Garantie, weder ausdrücklich noch implizit, für die Art oder Richtigkeit des dargebotenen Materials und übernimmt keine Haftung (einschließlich Haftung für indirekten Verlust oder Gewinn- oder Umsatzverluste) bezüglich des Materials bzw. der Nutzung dieses Materials. Sollten Inhalte von Web-Seiten des Karlsruher Instituts für Technologie gegen geltende Rechtsvorschriften verstoßen, dann bitten wir um umgehende Benachrichtigung. Wir werden die Seite oder den betreffenden Inhalt dann schnellstmöglich entfernen.
+These internet pages serve for information only. Their contents were compiled with due diligence. However, Karlsruhe Institute of Technology shall not assume any liability, neither expressly nor implied, for the type or correctness of the material offered and shall not be liable (including liability for indirect loss or loss of profit) for the material or use of this material. In case contents of websites of the Karlsruhe Institute of Technology violate valid legal regulations, we kindly ask you to inform us immediately. We will then remove the site or the respective contents as quickly as possible.
 
-## Verweise auf externe Web-Seiten
+## References to external websites
 
-Die Web-Seiten des Karlsruher Instituts für Technologie enthalten Verweise (Links) zu Informationsangeboten auf Servern, die nicht der Kontrolle und Verantwortlichkeit des Karlsruher Instituts für Technologie unterliegen. Das Karlsruher Institut für Technologie übernimmt keine Verantwortung und keine Garantie für diese Informationen und billigt oder unterstützt diese auch nicht inhaltlich.
+The websites of Karlsruhe Institute of Technology contain links to information offered by servers which are not subject to the control and responsibility of the Karlsruhe Institute of Technology. Karlsruhe Institute of Technology shall not assume any responsibility or guarantee for this information and shall not approve of or support such information in terms of contents.
 
-## Datenschutz und IT-Sicherheit
+## Data protection and IT-security
 
-Hinweise zum Datenschutz finden Sie in unserer Datenschutzerklärung.
-
-Sollten Sie weitere Fragen zu unseren Datenschutz-Standards haben, wenden Sie sich bitte an unseren Datenschutzbeauftragten. Möchten Sie sich über die Konzepte und technische Realisierung unserer IT-Sicherheit informieren, wenden Sie sich bitte an unseren Informationssicherheitsbeauftragten.
+If you have further questions with respect to our data protection standards or if you wish to consult our public procedures register, please contact our [Data Protection Commissioner](mailto:datenschutzbeauftragter@kit.edu). In case you wish to inform yourself about the concepts and technical implementation of our IT safety, do not hesitate to contact our [Information Security Officer](mailto:informationssicherheitsbeauftragter@kit.edu)

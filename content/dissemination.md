@@ -22,7 +22,7 @@ The OGL package is an OpenFOAM plugin that provides the interface to the sparse 
 
 Benchmark cases, workflows and performance data can be found on our github project page.
 
-<div class="github-card" data-github="exasim-project" data-width="400" data-height="" data-theme="default"></div>
+<div class="github-card" data-github="exasim-project" data-width="400" data-height="150" data-theme="default"></div>
 
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
