@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Dissemination
 eleventyNavigation:
   parent: main-menu
-  key: Dissemination
+  key: Get in touch
   order: 3
 ---
 
