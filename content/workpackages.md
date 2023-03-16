@@ -21,5 +21,7 @@ manufacturers of graphics cards: AMD, Intel and Nvidia, as well as for various
 high-performance computers and cloud computing platforms.
 
 # **WP4** - HPC capable inflow and outflow conditions 
+High-fidelity, scale-resolving numerical simulations of turbulent flows often require appropriate inflow- and outflow boundary conditions at the boundaries of the simulated domain. These boundary conditions are typically unknown a priori, are costly to retrieve and require an unnecessary extension of the computational domain (and thus cost) far beyond the region of interest. WP4 aims at reducing the computational cost and increase the accuracy of scale-resolving simulations by implementing in OpenFOAM state of the art methods for generating physically-sound synthetic turbulence at the inflow boundary and unconditionally-stable, non-reflecting outflow boundary conditions in a computationally-efficient manner compatible with the Ginko framework.
+
 # **WP5** - Complex application cases wind energy 
 # **WP6** - Dissemination 
