@@ -1,15 +1,13 @@
 ---
 layout: layouts/page.njk
-title: Privacy statment
+title: Privacy statement
 eleventyNavigation:
   parent: footer-menu
   key: Privacy
   order: 2
 ---
 
-<sup><sub>(Version 15.03.2023)</sup></sub>
-
-# Data protection
+## Data protection
 
 The operators of this website take the protection of your personal data very seriously.
 Personal data are all data that can be related to you personally, such as name, address, email addresses, and user behavior (information referring to an identifiable natural person (Art. 4, No. 1 of the EU General Data Protection Regulation (GDPR))).
@@ -20,7 +18,8 @@ When you contact us by electronic mail, the data given by you (your email addres
 
 We would like you to note that internet-based data transmission (e.g. when communicating by electronic mail) may have security gaps. Absolute protection of data against access by third parties may not be guaranteed.
 
-# Hosting
+## Hosting
+
 Our hoster collects the following data transmitted by your browser in so-called log files:
 
 IP address, the address of the previously visited website (referer request header), date and time of the request, time zone difference from Greenwich Mean Time, content of the request, HTTP status code, amount of data transferred, website from which the request came and information about the browser and operating system.
@@ -47,3 +46,5 @@ The data will be deleted as soon as the purpose of the processing ceases to appl
 The processing of the data provided under this section is not required by law or contract. The functionality of the website is not guaranteed without the processing.
 
 GitHub has implemented compliance measures for international data transfers. These apply to all global activities where GitHub processes personal data of individuals in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). For more information, please visit: (https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors)
+
+<small>Version 15.03.2023</small>
