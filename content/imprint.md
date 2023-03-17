@@ -1,13 +1,11 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page.njk
 title: Imprint
 eleventyNavigation:
   parent: footer-menu
   key: Imprint
   order: 1
 ---
-
-# IMPRINT
 
 ## Provider
 
@@ -22,18 +20,17 @@ Phone: +49 721 608-0 \
 Fax: +49 721 608-44290 \
 E-mail: [info@kit.edu](mailto:info@kit.edu)
 
+**Legal Form:** Corporation governed by public law
 
-**Legal Form:**	Corporation governed by public law
+**Authorized Representatives:** Prof. Dr.-Ing. Holger Hanselka (President of KIT)
 
-**Authorized Representatives:**	Prof. Dr.-Ing. Holger Hanselka (President of KIT)
-
-**Responsible for Content:**	\
+**Responsible for Content:** \
 Monika Landgraf \
 Head of Corporate Communications and Chief Press Officer of the KIT \
 Online editorial team \
 Email: internetredaktion@sts.kit.edu
 
-**Turnover Tax Identification Number:**	DE266749428
+**Turnover Tax Identification Number:** DE266749428
 
 ## Copyright
 
