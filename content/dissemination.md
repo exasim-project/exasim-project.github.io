@@ -7,6 +7,8 @@ eleventyNavigation:
   order: 3
 ---
 
+Get in touch, write us an e-Mail: contact.at.exasim-project.de
+
 # Public Repositories
 
 The exasim project supports the philosophy of open science and open source software. Software, benchmark cases, and performance data are therefore distributed on publicly available repositories.
