@@ -7,7 +7,9 @@ eleventyNavigation:
   order: 3
 ---
 
-Get in touch, write us an e-Mail: contact.at.exasim-project.de
+We greatly encourage you to contact us via [contact@exasim-project.de](mailto:contact@exasim-project.de):
+ - if you would like to join as a stakeholder e.g. by providing an OpenFOAM application case that would specifically profit from GPU accleration.  
+ - if you would like to share some information or discuss ideas regarding the general topics of project.
 
 # Public Repositories
 
