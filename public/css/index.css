@@ -261,7 +261,7 @@ a.arrow-link:after {
 	background: #fff;
 	color: var(--color-blue);
 	width: 100%;
-	padding: calc(var(--site-padding) * 2) 0 var(--site-padding) 0;
+	padding: 100px 0 50px 0;
 }
 
 .funding__text {
@@ -271,7 +271,7 @@ a.arrow-link:after {
 .site-footer .site-inner {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	flex-wrap: wrap;
 	gap: var(--gap);
 }
@@ -282,6 +282,7 @@ a.arrow-link:after {
 	display: flex;
 	gap: var(--gap);
 	padding: 0;
+	margin: 0;
 }
 
 .footer-nav a {
