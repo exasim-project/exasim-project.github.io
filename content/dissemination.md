@@ -9,11 +9,11 @@ eleventyNavigation:
 
 We greatly encourage you to contact us via [contact@exasim-project.de](mailto:contact@exasim-project.de):
  - if you would like to join as a stakeholder e.g. by providing an OpenFOAM application case that would specifically profit from GPU accleration.  
- - if you would like to share some information or discuss ideas regarding the general topics of project.
+ - if you would like to share some information or discuss ideas regarding the general topics of the project.
 
 # Public Repositories
 
-The exasim project supports the philosophy of open science and open source software. Software, benchmark cases, and performance data are therefore distributed on publicly available repositories.
+The EXASIM project supports the philosophy of open science and open source software. Software, benchmark cases and performance data are therefore distributed on publicly available repositories.
 
 ## OGL
 The OGL package is an OpenFOAM plugin that provides the interface to the sparse linear algebra framework Ginkgo.</br>
