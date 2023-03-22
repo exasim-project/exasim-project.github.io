@@ -15,6 +15,8 @@ header.site-header {
 	width: 100%;
 	max-width: 1250px;
 	margin: 0 auto;
+	height: 160px;
+	align-content: center;
 }
 
 header.site-header.menu-open .main-nav__list {
@@ -63,7 +65,6 @@ header.site-header.menu-open .main-nav__list {
 	gap: var(--gap);
 	width: 100%;
 	left: 0;
-	padding: 0 var(--site-padding) var(--site-padding) var(--site-padding);
 }
 
 .main-nav__nav-item a {
@@ -87,6 +88,8 @@ header.site-header.menu-open .main-nav__list {
 		flex-direction: column;
 		align-items: flex-start;
 		background: var(--background-lighter);
+		align-content: unset;
+		height: unset;
 	}
 
 	.main-nav__nav-item {
@@ -103,6 +106,7 @@ header.site-header.menu-open .main-nav__list {
 		display: none;
 		background: var(--background-lighter);
 		margin-top: 15px;
+		padding: 0 var(--site-padding) var(--site-padding) var(--site-padding);
 	}
 	.main-nav__list.is-active {
 		display: block;
