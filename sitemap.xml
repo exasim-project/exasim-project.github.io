@@ -2,7 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://exasim-project.com/dissemination/</loc>
+		<loc>https://exasim-project.com/status/01_kickoff/</loc>
+		<lastmod>2022-12-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://exasim-project.com/status/02_exafoam/</loc>
+		<lastmod>2023-06-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://exasim-project.com/contact/</loc>
 		<lastmod>2023-06-19</lastmod>
 	</url>
 	
@@ -28,11 +38,6 @@
 	
 	<url>
 		<loc>https://exasim-project.com/privacy/</loc>
-		<lastmod>2023-06-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://exasim-project.com/status_exafoam_link/</loc>
 		<lastmod>2023-06-19</lastmod>
 	</url>
 	

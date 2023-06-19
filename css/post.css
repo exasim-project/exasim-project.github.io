@@ -1,0 +1,13 @@
+.post-title {
+	margin: 0;
+}
+.post-metadata {
+	color: var(--color-turquoise);
+	font-size: var(--font-size--small);
+	font-weight: 700;
+	display: flex;
+	gap: 10px;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+
+}

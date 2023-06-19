@@ -152,6 +152,8 @@ main {
 	grid-template-columns: minmax(200px, 25%) 1fr;
 	border-top: 1px solid var(--color-primary);
 	padding-top: 15px;
+	gap: 45px;
+	align-items: top;
 }
 
 .section:last-of-type {
@@ -204,6 +206,10 @@ h1.section-header {
 	display: grid;
 }
 
+.section-content p:first-line {
+	line-height: 100% !important;
+}
+
 .section-content > p:first-child {
 	margin-top: 0;
 }
@@ -251,6 +257,20 @@ a.arrow-link:after {
 	transition: all 0.3s ease-in-out;
 	display: block;
 	margin-top: 5px;
+}
+
+a.up-arrow:hover:after {
+	transform: rotate(45deg);
+}
+
+a.up-arrow:after {
+	content: "🡥";
+	margin-left: 10px;
+	transition: all 0.3s ease-in-out;
+	color: var(--color-turquoise);
+	margin-top: 5px;
+	display: inline-block;
+	font-size: var(--font-size--medium);
 }
 
 /* -------------------------------------------------------------------------- */
