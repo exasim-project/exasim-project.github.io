@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<div class="post-metadata">
+	<div class="type">Status</div>
+	<span>&ndash;</span>
+	<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+</div>
+<h1 class="post-title">{{ title }}</h1>
+
+
+{{ content | safe }}

@@ -1,0 +1,6 @@
+{% for post in postslist | reverse %}
+	<div class="status-msg">
+		<a class="up-arrow" href="{{ post.url }}" class="status-msg__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		<time class="status-msg__date date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	</div>
+{% endfor %}

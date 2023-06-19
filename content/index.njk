@@ -31,12 +31,9 @@ layout: layouts/base.njk
 <section class="section">
 <h1 class="section-header">Status</h1>
 <div class="section-content">
-
-	<div class="status-msg">
-		Project kick-off meeting at KIT
-		<div class="date">06. December 2022</div>
-	</div>
-
+	{% set postsCount = collections.posts | length %}
+	{% set postslist = collections.posts %}
+	{% include "postslist.njk" %}
 </div>
 </section>
 
