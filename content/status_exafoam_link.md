@@ -6,7 +6,7 @@ eleventyNavigation:
 ---
 
 <figure>
-  <img width="900" height="506" loading="lazy" src="/img/exafoam-exasim.jpg" alt="Logos exaFOAM EXASIM">
+  <img width="900" height="506" loading="lazy" src="/img/exafoam-exasim.jpeg" alt="Logos exaFOAM EXASIM">
 </figure>
 
 The exasim project is proud to announce a partnership with the exaFOAM project!
@@ -21,4 +21,5 @@ link between the projects is a natural step. By sharing benchmarking test cases
 and findings, the collaboration will exploit synergies and increase the overall
 knowledge gained.  We look forward to a fruitful collaboration!
 
-Find out more on the exaFoam website: https://exafoam.eu/
+Find out more on the exaFoam 
+<a href="https://exafoam.eu" class="arrow-link">website</a>.
