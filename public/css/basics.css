@@ -24,7 +24,7 @@
 	--text-color: var(--color-primary);
 
 	/* FONTSIZING --------------------------------------------------------------- */
-	--font-size--small: 1.4rem;
+	--font-size--small: 1.5rem;
 	--font-size--normal: clamp(1.8rem, 0.24vw + 1.71rem, 2rem);
 	--font-size--medium: clamp(2rem, 0.24vw + 1.91rem, 2.2rem);
 	--font-size--huge: clamp(4rem, 3.57vw + 2.71rem, 7rem);
@@ -124,6 +124,10 @@ a:hover,
 a:focus,
 a:active {
 	color: var(--color-turquoise);
+}
+
+a.up-arrow {
+	text-decoration: none;
 }
 
 /* HEADINGS ----------------------------------------------------------------- */
