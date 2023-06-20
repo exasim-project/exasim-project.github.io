@@ -13,13 +13,12 @@
 		<link rel="manifest" href="manifest.webmanifest">
 		{# /FAVICONS #}
 		{# INLINE CSS #}
-		{% set css %}
-			{% include "public/css/basics.css" %}
+		{%- css %}
 			{% include "public/css/fonts.css" %}
+			{% include "public/css/basics.css" %}
 			{% include "public/css/index.css" %}
-			{% include "public/css/post.css" %}
-		{% endset %}
-		<style>{{ css | cssmin | safe }}</style>
+		{% endcss %}
+		<style>{% getBundle "css" %}</style>
 		{# /INLINE CSS #}
 		{# REMOVE NO-JS #}
 		<script>
