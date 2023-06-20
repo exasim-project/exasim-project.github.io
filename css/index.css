@@ -255,7 +255,7 @@ a.arrow-link:after {
 	height: 37px;
 	margin-left: 10px;
 	transition: all 0.3s ease-in-out;
-	display: block;
+	display: inline-block;
 	margin-top: 5px;
 }
 
@@ -264,11 +264,14 @@ a.up-arrow:hover:after {
 }
 
 a.up-arrow:after {
-	content: "🡥";
+	content: "";
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 52 53' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Artboard1' x='0' y='0' width='51.233' height='52.054' style='fill:none;'/%3E%3CclipPath id='_clip1'%3E%3Crect id='Artboard11' serif:id='Artboard1' x='0' y='0' width='51.233' height='52.054'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23_clip1)'%3E%3Cpath d='M6.147,51.052l36.827,-36.827l0,37.081l8.332,0l0,-51.306l-51.306,0l0,8.332l37.082,0l-36.828,36.828l5.893,5.892Z' style='fill:%230cc8cf;fill-rule:nonzero;'/%3E%3C/g%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 13px;
+	height: 13px;
 	margin-left: 10px;
 	transition: all 0.3s ease-in-out;
-	color: var(--color-turquoise);
-	margin-top: 5px;
 	display: inline-block;
 	font-size: var(--font-size--medium);
 }
