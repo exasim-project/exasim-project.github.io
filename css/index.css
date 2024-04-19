@@ -292,7 +292,7 @@ h1.section-header {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0;
+  top: 50;
   right: 0;
 }
 
