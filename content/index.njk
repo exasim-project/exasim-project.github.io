@@ -19,6 +19,13 @@ layout: layouts/base.njk
 <section class="section">
 <h1 class="section-header">Accomplishments</h1>
 <div class="section-content">
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<br>
 	<div class="slideshow-container">
 
 	<!-- Full-width images with number and caption text -->
@@ -32,28 +39,25 @@ layout: layouts/base.njk
 	</div>
 
 	<div class="mySlides fade">
+	<figure>
 		<div class="numbertext">2 / 3</div>
-			<img loading="lazy" src="/img/Impinging_jet_website.png" alt="Impinging jet simulation" style="width:100%">
-		<div class="text">Visualisation of a passive scalar for the Impinging jet micro benchmark case <b>Image: Davide Gatti, ISTM, 2024</b></div>
+		<img loading="lazy" src="/img/Impinging_jet_website.png" alt="Impinging jet simulation" style="width:100%">
+		<figcaption>Visualisation of a passive scalar for the Impinging jet micro benchmark case <b>Image: Davide Gatti, ISTM, 2024</b></figcaption>
+	</figure>
 	</div>
 
 	<div class="mySlides fade">
+	<figure>
 		<div class="numbertext">3 / 3</div>
-			<img loading="lazy" src="/img/mexico_rotor_website.png" alt="Mexico rotor ALM simulation" style="width:100%">
-		<div class="text">Velocity coloured iso-surface of Q-criterion for the MEXICO rotor micro benchmark <b>Image: Upstream CFD GmbH, 2024</b></div>
+		<img loading="lazy" src="/img/mexico_rotor_website.png" alt="Mexico rotor ALM simulation" style="width:100%">
+		<figcaption>Velocity coloured iso-surface of Q-criterion for the MEXICO rotor micro benchmark <b>Image: Upstream CFD GmbH, 2024</b></figcaption>
+	</figure>
+	<p>An assortment of OpenFOAM cases designed for HPC testing is incorporated in the EXASIM benchmark suite. They are setup to be used with our dedicated framework for large parametric OpenFOAM studies based on  <a href="<https://docs.signac.io/en/latest>">signac</a>. You can find the code for the OpenFOAM Benchmark Runner (<a href="<https://github.com/hpsim/OBR>">OBR</a>) on Github.</p>
 	</div>
 
 	<!-- Next and previous buttons -->
 	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	<br>
-
-	<!-- The dots/circles -->
-	<div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
 	</div>
 </div>
 </section>
