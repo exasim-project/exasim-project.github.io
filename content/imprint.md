@@ -38,7 +38,7 @@ For the internet pages of Karlsruhe Institute of Technology, the copyright and a
 
 ## Disclaimer
 
-These internet pages serve for information only. Their contents were compiled with due diligence. However, Karlsruhe Institute of Technology shall not assume any liability, neither expressly nor implied, for the type or correctness of the material offered and shall not be liable (including liability for indirect loss or loss of profit) for the material or use of this material. In case contents of websites of the Karlsruhe Institute of Technology violate valid legal regulations, we kindly ask you to inform us immediately. We will then remove the site or the respective contents as quickly as possible.
+These internet pages serve for information only. Their contents were compiled with due diligence. However, Karlsruhe Institute of Technology shall not assume any liability, neither expressly nor implied, for the type or correctness of the material offered and shall not be liable (including liability for indirect loss or loss of profit) for the material or use of this material. In case contents of websites of the Karlsruhe Institute of Technology violate valid legal regulations, we kindly ask you to inform us immediately. We will then remove the site or the respective contents as quickly as possible. Additionally, this project is funded by the European Union – Next Generation EU. However, the views and opinions expressed are solely those of the author(s) and do not necessarily reflect those of the European Union or the European Commission. Neither the European Union nor the European Commission can be held responsible for them.
 
 ## References to external websites
 
