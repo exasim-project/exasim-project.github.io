@@ -1,7 +1,7 @@
 ---
-title: NeoFOAM design workshop
+title: First NeoFOAM Hackathon
 description:
-date: 2024-02-23
+date: 2024-07-24
 ---
 
 {% image "./hackathon.jpeg", "Logos exaFOAM EXASIM" %}
