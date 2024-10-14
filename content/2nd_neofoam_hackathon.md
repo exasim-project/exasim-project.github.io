@@ -3,6 +3,6 @@ layout: layouts/page.njk
 title: 2nd NeoFOAM Hackathon
 ---
 
-This is an announcement text about the second NeoFOAM hackathon
+# 05-07 March 2025 Heilbronn Germany Save the date
 
-
+Details comming soon.
