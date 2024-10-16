@@ -44,4 +44,4 @@ title: 2nd NeoFOAM Hackathon
 </div>
 
 
-The second round of the NeoFOAM Hackathon, will be hosted by the TU Munich Campus Heilbronn, 05-07 March 2025. Details comming soon.
+The second round of the NeoFOAM Hackathon, will be hosted by the TU Munich Campus Heilbronn, 05-07 March 2025. Get in touch [gregor.olenik@kit.edu](mailto:gregor.olenik@kit.edu)! More details comming soon.
