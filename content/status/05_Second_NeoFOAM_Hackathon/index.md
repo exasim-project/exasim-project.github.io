@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Invitation to 2nd NeoFOAM Hackathon
+title: 
 description:
 date: 2025-03-04
 ---
