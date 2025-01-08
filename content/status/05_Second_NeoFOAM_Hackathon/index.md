@@ -1,11 +1,8 @@
 ---
-layout: layouts/page.njk
-title: 
+title: "Join the 2nd NeoFOAM Hackathon:\nHelp shaping the next generation open-source CFD solver!"
 description:
 date: 2025-03-04
 ---
-
-# Join the 2nd NeoFOAM Hackathon: Help shaping the next generation open-source CFD solver!
 
 The second round of the [NeoFOAM](https://github.com/exasim-project/NeoFOAM) Hackathon, will be hosted by the **TU Munich Campus Heilbronn, 04-06 March 2025, Germany**. 
 You are welcome to register with Gregor Olenik [gregor.olenik@kit.edu](mailto:gregor.olenik@kit.edu) by sending a short bio and your interests! Please, note that the number of participants is limited due to venue and workflow considerations.
@@ -26,21 +23,18 @@ The aim of the hackathon will be to discuss and progress on the [Roadmap](https:
 	<div class="mySlides fade">
 	<figure>
 		<img loading="lazy" src="/img/200831-01_001.png" alt="@" style="width:100%">
-		<figcaption>@</figcaption>
 	</figure>
 	</div>
 
 	<div class="mySlides fade">
 	<figure>
 		<img loading="lazy" src="/img/200831-01_018.png" alt="@" style="width:100%">
-		<figcaption>@</figcaption>
 	</figure>
 	</div>
 
 	<div class="mySlides fade">
 	<figure>
 		<img loading="lazy" src="/img/200831-01_020.png" alt="@" style="width:100%">
-		<figcaption>@</figcaption>
 	</figure>
 	</div>
 
