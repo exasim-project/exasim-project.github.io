@@ -36,27 +36,27 @@ layout: layouts/base.njk
 		<img loading="lazy" src="/img/fig_speeup_paper_OGL.png" alt="Linear pressure solver performance." style="width:100%">
 		<figcaption>Linear pressure solver performance. <b>Image: Gregor Olenik, TUM, 2024</b></figcaption>
 	</figure>
-	<p>We are pleased to share our publication 
+	<p>We are pleased to share our publication
 		<strong>"Towards a Platform-Portable Linear Algebra Backend for OpenFOAM"</strong>, which
-		has been published in the journal <em>Meccanica</em>. The work is authored by 
+		has been published in the journal <em>Meccanica</em>. The work is authored by
 		Gregor Olenik, Marcel Koch, Ziad Boutanios, and Hartwig Anzt.</p>
-	
-	<p>This paper presents the development of the OpenFOAM Ginkgo Layer (OGL), 
-		a plugin designed to leverage the Ginkgo library for GPU-accelerated linear 
-		algebra computations in OpenFOAM. The study emphasizes platform portability 
-		and evaluates performance across different hardware systems, including Intel, 
+
+	<p>This paper presents the development of the OpenFOAM Ginkgo Layer (OGL),
+		a plugin designed to leverage the Ginkgo library for GPU-accelerated linear
+		algebra computations in OpenFOAM. The study emphasizes platform portability
+		and evaluates performance across different hardware systems, including Intel,
 		AMD, and NVIDIA GPUs.</p>
-	
-	<p>Notable contributions include methods to reduce computational overhead and 
-		improve efficiency through device-persistent data structures and optimized 
-		stopping criteria. The results highlight the potential for enhanced 
+
+	<p>Notable contributions include methods to reduce computational overhead and
+		improve efficiency through device-persistent data structures and optimized
+		stopping criteria. The results highlight the potential for enhanced
 		computational efficiency in large-scale CFD simulations.</p>
-	
+
 	<p>To read the full paper, visit <a href="https://doi.org/10.1007/s11012-024-01806-1" target="_blank" rel="noopener">
 		Springer Link
-		</a>. 
-		For more details on the implementation, the project's repository can be found 
-		at 
+		</a>.
+		For more details on the implementation, the project's repository can be found
+		at
 		<a href="https://github.com/hpsim/OGL" target="_blank" rel="noopener">
 		GitHub
 		</a>.
@@ -69,7 +69,7 @@ layout: layouts/base.njk
 		<figcaption>Velocity coloured iso-surface of Q-criterion for the MEXICO rotor micro benchmark <b>Image: Upstream CFD GmbH, 2024</b></figcaption>
 	</figure>
 	<p>An assortment of OpenFOAM cases designed for HPC testing is incorporated in the EXASIM benchmark suite.
-	They are setup to be used with our dedicated framework for large parametric OpenFOAM studies based on  <a href="<https://docs.signac.io/en/latest>">signac</a>. 
+	They are setup to be used with our dedicated framework for large parametric OpenFOAM studies based on  <a href="<https://docs.signac.io/en/latest>">signac</a>.
 	You can find the code for the OpenFOAM Benchmark Runner (<a href="<https://github.com/hpsim/OBR>">OBR</a>) on Github.</p>
 	</div>
 
@@ -85,8 +85,8 @@ layout: layouts/base.njk
 		<img loading="lazy" src="/img/windsor_body_scaling_x10.png" alt="windsor body scaling test" style="width:100%">
 		<figcaption>Windsor body micro benchmark scaling test <b>Image: Upstream CFD GmbH, 2023</b></figcaption>
 	</figure>
-	<p>The Windsor body micro-benchmark is designed to enable weak scaling analysis, so we can identify bottlenecks in the code and push towards exascale computing. 
-	Identifying optimisation potential based on industrially relevant cases will help us develop innovative technology for efficient simulations in real world design processes. 
+	<p>The Windsor body micro-benchmark is designed to enable weak scaling analysis, so we can identify bottlenecks in the code and push towards exascale computing.
+	Identifying optimisation potential based on industrially relevant cases will help us develop innovative technology for efficient simulations in real world design processes.
 	The EXASIM team is looking forward to seeing how our hard work will have a positive impact for industry.</p>
 	</div>
 
@@ -119,6 +119,12 @@ layout: layouts/base.njk
 	</div>
 
 	<div class="section-card">
+		<img width="442" height="238" loading="lazy" src="/img/LogoTUM.svg" alt="Karlsruher Institut für Technologie - Logo">
+		<p>At KIT the interface between OpenFOAM and Ginkgo is being developed, together with efficient boundary conditions.</p>
+		<a href="https://www.kit.edu/" class="arrow-link">visit website</a>
+	</div>
+
+	<div class="section-card">
 		<img width="442" height="238" loading="lazy" src="/img/kit_logo.webp" alt="Karlsruher Institut für Technologie - Logo">
 		<p>At KIT the interface between OpenFOAM and Ginkgo is being developed, together with efficient boundary conditions.</p>
 		<a href="https://www.kit.edu/" class="arrow-link">visit website</a>
@@ -135,6 +141,7 @@ layout: layouts/base.njk
 		<p>Providing access to a multitude of hardware configurations to test code development.</p>
 		<a href="https://aws.amazon.com/" class="arrow-link">visit website</a>
 	</div>
+
 
 </div>
 </section>
