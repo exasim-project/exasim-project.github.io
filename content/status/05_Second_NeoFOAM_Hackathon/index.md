@@ -5,7 +5,7 @@ date: 2025-03-04
 ---
 
 The second round of the [NeoFOAM](https://github.com/exasim-project/NeoFOAM) Hackathon, will be hosted by the **TU Munich Campus Heilbronn, 04-06 March 2025, Germany**.
-You are welcome to register with Gregor Olenik [gregor.olenik@kit.edu](mailto:gregor.olenik@kit.edu) by sending a short bio and your interests! Please, note that the number of participants is limited due to venue and workflow considerations.
+You are welcome to register with Gregor Olenik [gregor.olenik@tum.de](mailto:gregor.olenik@tum.de) by sending a short bio and your interests! Please, note that the number of participants is limited due to venue and workflow considerations.
 
 The aim of the hackathon will be to discuss and progress on the [Roadmap](https://github.com/orgs/exasim-project/projects/1/views/8) towards a next generation OpenFOAM.
 
@@ -45,4 +45,4 @@ The aim of the hackathon will be to discuss and progress on the [Roadmap](https:
 </div>
 
 
-The second round of the NeoFOAM Hackathon, will be hosted by the TU Munich Campus Heilbronn, 04-06 March 2025. Get in touch [gregor.olenik@kit.edu](mailto:gregor.olenik@tum.de)! More details comming soon.
+The second round of the NeoFOAM Hackathon, will be hosted by the TU Munich Campus Heilbronn, 04-06 March 2025. Get in touch [gregor.olenik@tum.de](mailto:gregor.olenik@tum.de)! More details comming soon.

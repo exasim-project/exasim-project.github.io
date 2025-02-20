@@ -7,8 +7,8 @@ eleventyNavigation:
   order: 3
 ---
 
-We greatly encourage you to contact us via [gregor.olenik@kit.edu](mailto:gregor.olenik@kit.edu):
- - if you would like to join as a stakeholder e.g. by providing an OpenFOAM application case that would specifically profit from GPU accleration.  
+We greatly encourage you to contact us via [gregor.olenik@kit.edu](mailto:gregor.olenik@tum.de):
+ - if you would like to join as a stakeholder e.g. by providing an OpenFOAM application case that would specifically profit from GPU accleration.
  - if you would like to share some information or discuss ideas regarding the general topics of the project.
 
 ## Public Repositories
